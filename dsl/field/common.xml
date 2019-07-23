@@ -66,6 +66,13 @@
         <int name="vel" type="int32" units="mm/s" />
         <int name="heading" type="int32" units="deg" scaling="1/100000" displayDecimals="5" />
         <int name="headingAcc" type="uint32" units="deg" scaling="1/100000" displayDecimals="5" />
+        <enum name="layer" type="uint8">
+            <validValue name="RAM" val="0" />
+            <validValue name="BBR" val="1" />
+            <validValue name="FLASH" val="2" />
+        </enum>
+        <data name="CfgData" />
+        <data name="CfgItemIDs" />
         <enum name="gnssId" type="uint8">
             <validValue name="GPS" val="0" />
             <validValue name="SBAS" val="1" />

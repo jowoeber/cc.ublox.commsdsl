@@ -123,6 +123,9 @@ set (schema_files
     dsl/message/CfgSbas.xml
     dsl/message/CfgNmea.xml
     dsl/message/CfgUsb.xml
+    dsl/message/CfgValDel.xml
+    dsl/message/CfgValGet.xml
+    dsl/message/CfgValSet.xml
     dsl/message/CfgTmode.xml
     dsl/message/CfgOdo.xml
     dsl/message/CfgNvs.xml

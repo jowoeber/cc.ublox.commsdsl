@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="ublox">
+
+    <message name="CfgValGet" id="MsgId.CfgValGet" displayName="CFG-VALGET" order="0" platforms="-ublox9" sender="client">
+        <int name="version" type="uint8" defaultValue="0" validValue="0" />
+        <ref field="layer" />
+        <int name="position" type="uint16" defaultValue="0" />
+        <ref field="CfgItemIDs" />
+    </message>
+
+    <message name="CfgValGetReturn" id="MsgId.CfgValGet" displayName="CFG-VALGET (Return)" order="1" platforms="-ublox9" sender="server">
+        <int name="version" type="uint8" defaultValue="0" validValue="0" />
+        <ref field="layer" />
+        <int name="position" type="uint16" defaultValue="0" />
+        <ref field="CfgData" />
+    </message>
+
+</schema>

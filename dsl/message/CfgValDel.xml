@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="ublox">
+    <message name="CfgValDel" id="MsgId.CfgValDel" displayName="CFG-VALDEL" order="0" platforms="-ublox9">
+        <int name="version" type="uint8" defaultValue="0" validValue="0" />
+        <ref field="layer" />
+        <ref field="res2" name="reserved2" />
+        <ref field="CfgItemIDs" />
+    </message>
+</schema>
